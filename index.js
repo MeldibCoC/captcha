@@ -110,4 +110,4 @@ var captcha = String(Math.random()).charAt(4) + String(Math.random()).charAt(4) 
 });
 
 
-client.login("Mzg2MTMzMDI3NDEzMTY0MDMy.DWpAYw.AlAjfZtIvNTzv7Erm0ROaD8M3no");
+client.login(process.env.TOKEN);
